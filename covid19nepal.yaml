@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: covid19nepal-deployment
+  labels:
+    app: covid19nepal
+spec:
+  replicas: 2 
+  selector:
+    matchLabels:
+      app: covid19nepal 
+  template:
+    metadata:
+      labels:
+        app: covid19nepal
+    spec:
+      containers:
+      - name: covid19nepal 
+        image: basantashrestha/covid19apps:v1 
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8501
