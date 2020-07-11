@@ -22,8 +22,8 @@ def load_data(nrows):
 data = load_data(1000)
 
 ##Raw Data
-'This is based on Fake Data', data
+'This is based on Imaginary Data', data
 
 
 
-'This is based on Fake Data. Made just for the purpose of demo', st.map(data)
+'This is based on imaginary data. Made just for the purpose of demo', st.map(data)
