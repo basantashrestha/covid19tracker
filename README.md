@@ -2,7 +2,7 @@
 A Covid 19 patient tracker in Python using mockup data.  
 ### This is for simple manual Run. Please refer to other readme files for docker-compose and kubernetes. 
 **Steps to Run:**     
-
+You need at least Python 3.7 and need to have streamlit library installed for this
 1. After doing git clone https://gitlab.com/libresoftitsolutions/corona-patient-tracker.git  
 2. cd corona-patient-tracker  
 3. covidnepal.py and covidnepal.csv are available in current folder   
